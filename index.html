@@ -17,9 +17,45 @@
 
 <body>
 
+    <!-- this is a navbar which will change to hamburger menu if width of screen gets to small -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+
+        <div class="container-fluid">
+
+
+            <a class="navbar-brand" href="#">Logo</a>
+
+            <!-- This is the hamburger button that appears-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+
+                    <!-- this is each item in nav bar-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true" href="/history.html">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/visit.html">Visit</a>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
 
     <!-- This is imitating Jumbotron because doesnt exsist anymore -->
-    <div class="mt-5 p-5" style="background-color: rgb(227, 226, 226);">
+    <div class="p-5" style="background-color: rgb(227, 226, 226);">
         <h1 class="attention_h1">Scalloway</h1>
         <p>Founded in the 1600's <br> "Með lögum skal land byggja", translated "By law shall the land be built"</p>
 
