@@ -3,3 +3,10 @@
 .attention_h1 {
     font-size: 52px;
 }
+
+#open_street_map_scalloway {
+    height: 30%;
+    width: 80%;
+    border: solid;
+    border-radius: 10px;
+}
