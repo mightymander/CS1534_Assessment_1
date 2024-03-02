@@ -1,12 +1,15 @@
-
-
-.attention_h1 {
-    font-size: 52px;
-}
-
 #open_street_map_scalloway {
     height: 30%;
     width: 80%;
     border: solid;
     border-radius: 10px;
+}
+
+.main_banner_div {
+    background-color: #0065cc;
+    color: white;   
+}
+
+.main_banner_div h1 {
+    font-size: 52px;
 }
