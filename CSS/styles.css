@@ -1,10 +1,7 @@
-#open_street_map_scalloway {
-    height: 30%;
-    width: 80%;
-    border: solid;
-    border-radius: 10px;
-}
 
+
+
+/* Start of Index Styles */
 .main_banner_div {
     background-color: #0065cc;
     color: white;   
@@ -13,7 +10,6 @@
 .main_banner_div h1 {
     font-size: 52px;
 }
-
 
 .main_page_images_div {
     background-color: red;
@@ -24,3 +20,28 @@
     width: 500px;
     border-style: solid;
 }
+#open_street_map_scalloway {
+    height: 30%;
+    width: 80%;
+    border: solid;
+    border-radius: 10px;
+}
+
+/* End of Index Styles */
+
+/* Start on History styles */
+
+.history_castle_div {
+     background-color: lightgrey;
+     overflow: auto;
+}
+
+.history_castle_div img {
+    max-width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+
+
+
+/* Start of History Styles */
