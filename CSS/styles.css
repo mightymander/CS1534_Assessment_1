@@ -34,6 +34,7 @@
 .history_castle_div {
      background-color: lightgrey;
      overflow: auto;
+     border-style: solid;
 }
 
 .history_castle_div img {
@@ -43,5 +44,29 @@
 }
 
 
+.history_gallow_hill {
+    background-color: lightgray;
+    border-style: solid;
+    overflow: auto;
+}
+
+
+.history_gallow_hill img {
+    max-width: 50%;
+    float: right;
+    padding-left: 20px;
+}
+
+.history_shetland_bus {
+     background-color: lightgrey;
+     overflow: auto;
+     border-style: solid;
+}
+
+.history_shetland_bus img {
+    max-width: 50%;
+    float: left;
+    padding-right: 20px;
+}
 
 /* Start of History Styles */
