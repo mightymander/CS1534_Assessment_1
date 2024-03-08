@@ -31,42 +31,39 @@
 
 /* Start on History styles */
 
-.history_castle_div {
-     background-color: lightgrey;
+
+
+.history_image_left {
+    background-color: lightgrey;
      overflow: auto;
      border-style: solid;
 }
 
-.history_castle_div img {
-    max-width: 50%;
+
+.history_image_left img {
+    width: 50%;
     float: left;
-    padding-right: 20px;
 }
 
 
-.history_gallow_hill {
+.history_image_right {
     background-color: lightgray;
     border-style: solid;
     overflow: auto;
 }
 
-
-.history_gallow_hill img {
-    max-width: 50%;
+.history_image_right img{
+    width: 50%;
     float: right;
-    padding-left: 20px;
+    
 }
 
-.history_shetland_bus {
-     background-color: lightgrey;
-     overflow: auto;
-     border-style: solid;
+.history_image_left p {
+    padding: 20px;
 }
 
-.history_shetland_bus img {
-    max-width: 50%;
-    float: left;
-    padding-right: 20px;
+.history_image_right p {
+    padding: 20px;
 }
 
 /* Start of History Styles */
