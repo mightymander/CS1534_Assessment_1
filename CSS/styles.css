@@ -43,6 +43,7 @@
 .history_image_left img {
     width: 50%;
     float: left;
+    margin-right: 20px;
 }
 
 
@@ -50,11 +51,13 @@
     background-color: lightgray;
     border-style: solid;
     overflow: auto;
+    
 }
 
 .history_image_right img{
     width: 50%;
     float: right;
+    margin-left: 20px;
     
 }
 
@@ -63,7 +66,7 @@
 }
 
 .history_image_right p {
-    padding: 20px;
+    padding: 20px 20px 20px 0; /* Adds padding to the right side only */
 }
 
 /* Start of History Styles */
