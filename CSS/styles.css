@@ -21,23 +21,22 @@
 
 
 
-.main_page_images_div {
-    background-color: red;
 
-}
-.main_page_images_div img{
-    height: 300px;
-    width: 500px;
-    border-style: solid;
-}
+
+
+/* End of Index Styles */
+
+
+/* End of Home Styles */
+
 #open_street_map_scalloway {
-    height: 30%;
+    height: 40%;
     width: 80%;
     border: solid;
     border-radius: 10px;
 }
 
-/* End of Index Styles */
+/* End of Home Styles */
 
 /* Start on History styles */
 
