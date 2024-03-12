@@ -19,10 +19,21 @@
     font-size: 52px;
 }
 
+#carouselExampleSlidesOnly .carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#carouselExampleSlidesOnly .carousel-item {
+    text-align: center; 
+}
 
-
-
+#carouselSlides img {
+    max-height: 600px;
+    max-width: 800px;
+    margin: auto; 
+}
 
 /* End of Index Styles */
 
