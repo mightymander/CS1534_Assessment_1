@@ -15,4 +15,6 @@ Student ID: 52316427
 
 13/3/24 - regarding my decsion for the layout of page 'visit.html' i decided to make the left part (the bigger one) the image, and the right part some text explaining the image. when you read its always left to right so i wanted a big attraive image to be the first thing you see and then if you want to find out more you just keep reading and the text will be there.
 
-14/3/24 - for the visit page we are told to impliment a 7:5 column ratio, after doing that i notcied that when switching to moblie that it would look very squished together so after some googleing i found you could change it from 'col-5' -> 'col-lg-5' and this is perfect for moblie beacuse when it cant be loaded side by side they will go ontop of the other one.
+14/3/24 - for the visit page we are told to impliment a 7:5 column ratio, after doing that i notcied that when switching to moblie that it would look very squished together so after some googleing i found you could change it from 'col-5' -> 'col-lg-5' and this is perfect for moblie because when it cant be loaded side by side they will go ontop of the other one.
+
+14/3/24 - when adding in the video to the history page, i could'nt get the height to work, the width was fine but would work with '%' so rembering how i fixed the heading i tried 'vw' and it worked perfectly 
