@@ -11,8 +11,15 @@
     }
 .main_banner_div {
     background-color: #0065cc;
-    color: white;   
+    color: white; 
 }
+
+.main_banner_div h1 {
+    font-size: 8vw;
+    font-weight: 700;
+    font-family: Poppins;
+}
+
 
 /* Animation for index.html */
 @keyframes raiseUp {
@@ -46,11 +53,7 @@
     animation: raiseUp 2s cubic-bezier(0.19, 1, 0.22, 1) 3s both; /* Delay the fourth heading animation by 3 seconds */
 }
 
-.main_banner_div h1 {
-    font-size: 8vw;
-    font-weight: 700;
-    font-family: Poppins;
-}
+
 
 #carouselExampleSlidesOnly .carousel-inner {
     display: flex;
@@ -73,6 +76,20 @@
 
 /* Start of Home Styles */
 
+/* Main Banner*/
+#main_banner {
+    background-image: url(/IMGS/snowy_scalloway.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white; 
+}
+
+#main_banner h1 {
+    font-size: 8vw;
+    font-weight: 700;
+    font-family: Poppins;
+}
+
 #open_street_map_scalloway {
     height: 40%;
     width: 80%;
@@ -80,6 +97,10 @@
     border-radius: 10px;
 }
 
+
+#main_text_div_home {
+    background-color: rgb(193, 210, 243);
+}
 /* End of Home Styles */
 
 /* Start on History styles */
